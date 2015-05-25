@@ -2,16 +2,16 @@ import numpy as np
 import csv
 import pandas as pd
 
-def readMathes(fileName):
+def readMatches(fileName):
     reader = csv.reader(open(fileName, 'rb'))
     reader = list(reader)
-    reader = numpy.array(reader)
+    reader = np.array(reader)
     
     #get teams list
     teamsH = reader[:,0]
     teamsA = reader[:,1]
-    teams = numpy.concatenate((teamsH, teamsA))
-    teams = numpy.unique(teams)
+    teams = np.concatenate((teamsH, teamsA))
+    teams = np.unique(teams)
     n = len(teams)
     g = len(reader)
     
@@ -69,3 +69,12 @@ def readMathes(fileName):
         T.loc[(T['team'] == reader[i,1]), 'AF'] += awayScore[i]
         T.loc[(T['team'] == reader[i,0]), 'GD'] += (homeScore[i] - awayScore[i])
         T.loc[(T['team'] == reader[i,1]), 'GD'] += (awayScore[i] - homeScore[i])
+
+    T = T.sort(['Points', 'GD'], ascending=[0,0])
+    T.index = pd.Series(range(1, n+1))
+    return T
+
+
+fileName = '/home/ronfe/funcoding/foot-poisson/matches.csv'
+S = readMatches(fileName)
+print S
