@@ -1,0 +1,28 @@
+Date,Home,Away,predScore,predRes,realScore,realRes,prob,getOdd
+SEP27,Arsenal,Tottenham Hotspur,3-1,W,1-1,D,0.13,0
+SEP27,Chelsea,Aston Villa,1-0,W,3-0,W,0.13,1.22
+SEP27,Crystal Palace,Lecester City,1-1,L,2-0,W,0.03,0
+SEP27,Hull City,Manchester City,0-2,L,2-4,L,0.01,1.53
+SEP27,Liverpool,Everton,1-2,L,1-1,D,0.03,0
+SEP27,Manchester United,West Ham United,2-5,L,2-1,W,0.06,0
+SEP27,Southampton,Queens Park Rangers,1-1,W,2-1,W,0.03,1.55
+SEP27,Sunderland,Swansea City,1-6,L,0-0,D,0.03,0
+SEP28,West Bromwich Albion,Burnley,1-0,D,4-0,W,0.00,0
+SEP29,Stoke City,Newcastle United,1-0,W,1-0,W,0.16,2.15
+OCT04,Aston Villa,Manchester City,0-2,L,0-2,L,0.12,1.5
+OCT04,Hull City,Crystal Palace,2-2,L,2-0,W,0.01,0
+OCT04,Leicester City,Burnley,0-0,W,2-2,D,0.00,0
+OCT04,Liverpool,West Bromwich Albion,4-0,W,2-1,W,0.09,1.44
+OCT04,Sunderland,Stoke City,2-0,D,3-1,W,0.01,0
+OCT04,Swansea City,Newcastle United,3-0,W,2-2,D,0.02,0
+OCT05,Chelsea,Arsenal,3-0,W,2-0,W,0.04,1.73
+OCT05,Manchester United,Everton,3-4,L,2-1,W,0.05,0
+OCT05,Tottenham Hotspur,Southampton,2-0,L,1-0,W,0.11,0
+OCT05,West Ham United,Queens Park Rangers,1-1,W,2-0,W,0.12,1.85
+OCT18,Arsenal,Hull City,3-2,W,2-2,D,0.04,0
+OCT18,Burnley,West Ham United,0-2,L,1-3,L,0.03,2.8
+OCT18,Crystal Palace,Chelsea,1-2,L,1-2,L,0.06,1.45
+OCT18,Everton,Aston Villa,1-2,W,3-0,W,0.07,1.57
+OCT18,Manchester City,Tottenham Hotspur,2-0,W,4-1,W,0.02,1.45
+OCT18,Newcastle United,Leicester City,2-2,L,1-0,W,0.04,0
+OCT18,Southampton,Sunderland,3-0,W,8-0,W,0.00,1.5

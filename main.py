@@ -3,6 +3,7 @@ import csv
 import pandas as pd
 
 def readMatches(fileName):
+    global homeScore, awayScore
     reader = csv.reader(open(fileName, 'rb'))
     reader = list(reader)
     reader = np.array(reader)
@@ -77,4 +78,9 @@ def readMatches(fileName):
 
 fileName = '/home/ronfe/funcoding/foot-poisson/matches.csv'
 S = readMatches(fileName)
-print S
+mH = pd.Series(homeScore).mean()
+mA = pd.Series(awayScore).mean()
+vH = pd.Series(homeScore).var()
+vA = pd.Series(awayScore).var()
+Z = (vH + vA) / 50
+print Z
